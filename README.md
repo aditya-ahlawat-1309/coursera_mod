@@ -16,19 +16,22 @@
 		
 		border:1px solidblack;
 		font-size:20px;
-		font-color:#FFFFFF
+		color:#b4151c;
 		}
 		@media(min-width:992px){
+
 		#p1{
 		
 		padding: 10px;
-		clear: left;
+		
 		 float: left;
         width: 33.33%;
 		height:190px;
 		border:1px solidblack;
 		background-color:#FFC72C;	
 		}
+
+		
 		
 		#p2{
 		
@@ -37,8 +40,10 @@
         width: 33.33%;
 		height:190px;
 		border:1px solidblack;
-		background-color:#FFC72C;	
+		background-color:#FFFFFF;	
 		}
+
+		
 		
 		#p3{
 		
@@ -48,40 +53,136 @@
 		height:190px;
 		border:1px solidblack;
 		background-color:#FFC72C;	
+		}
+
+		#p11{
+			 background-color: #b4151c;
+			 color:#FFFFFF;
+			 padding: 10px;
+		
+		 float: left;
+        width: 33.33%;
+		height:190px;
+		border:1px solidblack;
+		}
+
+
+#p22{
+			 background-color: #FFFFFF;
+			 color:#b4151c;
+			 padding: 10px;
+	float: left;
+        width: 33.33%;
+		height:190px;
+		border:1px solidblack;
+		}
+
+
+		#p33
+		{
+			 background-color: #b4151c;
+			 color:#FFFFFF;
+			 padding: 10px;
+		float: left;
+        width: 33.33%;
+		height:190px;
+		border:1px solidblack;
 		}
 	}
 
     @media(min-width:768px) and (max-width:991px){
 		#p1{
-		float:right;
+		float:left;
 		background-color:#FFC72C;	
 		}
 		
 		#p2{
-		float:right;
-		background-color:#FFC72C;	
+		float:left;
+		background-color:#FFFFFF;	
 		}
 		
 		#p3{
-		float:right;
+		float:left;
 		background-color:#FFC72C;	
+		}
+
+		#p11{
+			 background-color: #b4151c;
+			 color:#FFFFFF;
+			
+		
+		 float: left;
+       
+		border:1px solidblack;
+		}
+
+
+#p22{
+			 background-color: #FFFFFF;
+			 color:#b4151c;
+			
+	float: left;
+        
+		border:1px solidblack;
+		}
+
+
+		#p33
+		{
+			 background-color: #b4151c;
+			 color:#FFFFFF;
+			
+		float: left;
+       
+		border:1px solidblack;
 		}
 	}
 
 		@media(max-width:767px){
 		#p1{
-		float:right;
+		float:left;
 		background-color:#FFC72C;	
 		}
 		
 		#p2{
-		float:right;
-		background-color:#FFC72C;	
+		float:left;
+		background-color:#FFFFFF;	
 		}
 		
 		#p3{
-		float:right;
+		float:left;
 		background-color:#FFC72C;	
+		}
+
+		#p11{
+			 background-color: #b4151c;
+			 color:#FFFFFF;
+		
+		
+		 float: left;
+        
+		border:1px solidblack;
+		}
+
+
+#p22{
+			 background-color: #FFFFFF;
+			 color:#b4151c;
+			
+	float: left;
+        
+		border:1px solidblack;
+		}
+
+
+		#p33
+		{
+			 background-color: #b4151c;
+			 color:#FFFFFF;
+			
+		float: left;
+        
+		border:1px solidblack;
 		}
 	}
 	</style>
@@ -91,14 +192,18 @@
 <h1>OUR MENU is here for you && we are at your service !!! </h1>
 <div>
 	
-	<p id="p1">MENU 1 = McVeggie 
-		available for $0.99 and packed with a lot of stuff like spinach and mayonise. you are gonna like it . please do try a sample
+	<p id="p1">MENU 1 = McVeggie </p>
+		
+	<p id="p2">MENU 1 = McChicken </p>
+		
+	<p id="p3">MENU 1 = McMaharaja </p>
+
+	<p id="p11">Available for $0.99 and packed with a lot of stuff like spinach and mayonise. you are gonna like it . please do try a sample
 	</p>
-	<p id="p2">MENU 1 = McChicken 
-		available for $3.99 and packed with a lot of stuff like chicken and mayonise. you are gonna like it . please do try a sample
+
+	<p id="p22">Available for $3.99 and packed with a lot of stuff like chicken and mayonise. you are gonna like it . please do try a sample
 	</p>
-	<p id="p3">MENU 1 = McMaharaja 
-		available for $5.99 and packed with a lot of stuff like spinach and chicken and ham and mayonise. you are gonna like it . please do try a sample
+	<p id="p33">	Available for $5.99 and packed with a lot of stuff like spinach and chicken and ham and mayonise. you are gonna like it . please do try a sample
 	</p>
 	
 	
